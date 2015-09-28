@@ -26,7 +26,7 @@
 
 namespace MailerliteBundle\Service;
 
-use Guzzle\Http\Client as GuzzleClient;
+use GuzzleHttp\Client as GuzzleClient;
 
 class Client extends GuzzleClient
 {
