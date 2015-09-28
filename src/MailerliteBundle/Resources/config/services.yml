@@ -1,0 +1,11 @@
+parameters:
+    mailerlite.api.url: "https://app.mailerlite.com/api/v1/"
+
+services:
+    mailerlite.client:
+        class: MailerliteBundle\Service\Client
+        arguments:
+            1:
+                base_uri: %mailerlite.api.url%
+                api_key: %mailerlite.api.key%
+                list_id: %mailerlite.list_id%

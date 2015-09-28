@@ -1,0 +1,17 @@
+{
+    "name": "nebijokit/mailerlite-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony2 bundle for Mailerlite",
+    "keywords": ["Mailerlite"],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2",
+        "guzzle/guzzle": "~3.9"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "MailerliteBundle": "src"
+        }
+    }
+}
